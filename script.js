@@ -17,6 +17,7 @@ function init() {
     const fs = require("fs");
     const axios = require("axios");
     const inquirer = require("inquirer");
+    //const HTMLToPDF = require('html-to-pdf');
 
     //Questions for User Profile
     inquirer.prompt[]
@@ -37,8 +38,6 @@ function init() {
                         throw err;
                     }
                     console.log(`Saved ${repoNames.length} repos`);
-
-
                 });
             });
         })
