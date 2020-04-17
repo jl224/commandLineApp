@@ -18,10 +18,8 @@
   "homepage": "https://github.com/jl224/commandLineApp#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "electron-html-to": "^2.6.0",
-    "electron-pdf": "^7.0.0",
     "fs": "0.0.1-security",
-    "html-to-pdf": "^0.1.11",
+    "html-pdf": "^2.2.0",
     "inquirer": "^7.0.4",
     "rs": "0.0.2"
   }
