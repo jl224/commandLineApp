@@ -26,6 +26,7 @@ const colors = {
 };
 
 function generateHTML(data) {
+  console.log(data)
   return `<!DOCTYPE html>
   <html lang="en">
      <head>
@@ -174,15 +175,32 @@ function generateHTML(data) {
         </head>
         <body>
 
-           <p>${data.name}</p>
-           <p>${data.company}</p>
+        
+<div class="wrapper">
+<div class="photo-header">
+
+    <img src=${data.avatar_url}/>
+    <br>
+    <h2 style="text-align:center> Hi! My name is ${data.name} and I work at ${data.company}
+    </h2>
+
+    </div>
+    </div>
+
+
+    <br>
+    <br>
+        
+    <h6 style="text-align:center">
            <p>${data.location}</p>
            <p>${data.blog}</p>
            <p>${data.bio}</p>
            <p>${data.followers}</p>
            <p>${data.stars}</p>
            <p>${data.following}</p>
-           <img src=${data.avatar_url}></img>
+  
+           </h6>
+          </div>
         </body>
         
         
